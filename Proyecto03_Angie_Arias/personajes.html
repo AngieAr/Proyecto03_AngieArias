@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Personajes - Mundo Gamer</title>
+</head>
+<body>
+
+    <header class="bg-white text-center py-3 d-flex flex-column align-items-center">
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo" width="250">
+        </a>
+        
+    </header>
+    
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to right, #0000ff, #e63295);">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav left-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: rgb(11, 22, 244);">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consolas.html" style="color: rgb(11, 22, 244);">Consolas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:rgb(11, 22, 244)">
+                            Juegos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="noticias.html">Noticias</a>
+                            <a class="dropdown-item" href="personajes.html">Personajes</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="juegos.html">Juegos</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto right-items">
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Juego..." aria-label="Search">
+                        <button class="btn btn-outline-primary btn-hover-purple btn-padding" type="submit">Buscar</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Personajes -->
+    <div class="container mt-4">
+        <h2 class="text-center">Personajes</h2>
+        <div class="row">
+            <!-- Personaje 1 -->
+            <div class="col-md-4">
+                <div class="personaje">
+                    <img src="img/personaje1.jpg" class="img-fluid" alt="Personaje 1">
+                    <h5 class="mt-2">Ahri</h5>
+                    <p>Ahri es una encantadora y astuta Vastaya con forma de zorro. Originaria de Ionia, Ahri se alimenta de las esencias vitales de los demás para mantener su humanidad. Sus habilidades místicas y su apariencia cautivadora la convierten en una depredadora letal. Ahri, a pesar de su naturaleza depredadora, lucha con su dualidad.</p>
+                </div>
+            </div>
+            <!-- Personaje 2 -->
+            <div class="col-md-4">
+                <div class="personaje">
+                    <img src="img/personaje2.jpg" class="img-fluid" alt="Personaje 2">
+                    <h5 class="mt-2">Garen</h5>
+                    <p>Garen es un valiente guerrero de Demacia conocido por su lealtad y habilidad en el combate cuerpo a cuerpo. Portador de una imponente espada, Garen es el defensor incansable de la justicia y la honradez. Su resistencia en el campo de batalla y su habilidad para silenciar a sus enemigos hacen de él un formidable protector.</p>
+                </div>
+            </div>
+            <!-- Personaje 3 -->
+            <div class="col-md-4">
+                <div class="personaje">
+                    <img src="img/personaje3.jpg" class="img-fluid" alt="Personaje 3">
+                    <h5 class="mt-2">Kai'Sa</h5>
+                    <p>Kai'Sa, también conocida como "La Hija del Vacío", es una valiente cazadora que emergió de las profundidades del Vacío. Antes de ser absorbida por esta dimensión oscura, Kai'Sa era una joven llamada Kaiya. Sin embargo, su conexión con el Vacío la transformó en una cazadora de criaturas aberrantes, Kai'Sa continúa luchando.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Pie de Página -->
+<footer class="bg-white text-white py-4" id="myFooter">
+    <div class="container">
+        <div class="row">
+            <!-- Logo y Nombre -->
+            <div class="col-md-3">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="250">
+                </a>
+            </div>
+
+            <!-- Enlaces de Navegación -->
+            <div class="col-md-6" >
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+                    <li class="list-inline-item"><a href="consolas.html">Consolas</a></li>
+                    <li class="list-inline-item"><a href="juegos.html">Juegos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center" >
+                <p style="color: #0000ff;">Desarrollado por <strong>Angie Arias Herrera</strong></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

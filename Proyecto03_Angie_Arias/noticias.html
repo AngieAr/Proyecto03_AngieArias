@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Noticias - Mundo Gamer</title>
+</head>
+<body>
+
+    <header class="bg-white text-center py-3 d-flex flex-column align-items-center">
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo" width="250">
+        </a>
+        
+    </header>
+    
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to right, #0000ff, #e63295);">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav left-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: rgb(11, 22, 244);">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consolas.html" style="color: rgb(11, 22, 244);">Consolas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:rgb(11, 22, 244)">
+                            Juegos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="noticias.html">Noticias</a>
+                            <a class="dropdown-item" href="personajes.html">Personajes</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="juegos.html">Juegos</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto right-items">
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Juego..." aria-label="Search">
+                        <button class="btn btn-outline-primary btn-hover-purple btn-padding" type="submit">Buscar</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h2 class="text-center">Noticias</h2>
+        <div class="row">
+            <!-- Noticia 1 -->
+            <div class="col-md-4">
+                <div class="noticia">
+                    <img src="img/noticia1.jpg" class="img-fluid" alt="Noticia 1">
+                    <h5 class="mt-2">Mundo Gamer Celebra el Lanzamiento Exclusivo de 'Realidad Virtual Extrema'</h5>
+                    <p>Sumérgete en la experiencia de realidad virtual más extrema con el lanzamiento exclusivo de un juego revolucionario. Descubre los detalles del evento de lanzamiento, las reacciones de los jugadores y las características que hacen que este juego sea único en su clase.</p>
+                </div>
+            </div>
+            <!-- Noticia 2 -->
+            <div class="col-md-4">
+                <div class="noticia">
+                    <img src="img/noticia2.jpg" class="img-fluid" alt="Noticia 2">
+                    <h5 class="mt-2">Colisión Épica: Colaboración entre Dos Gigantes de la Industria de Videojuegos</h5>
+                    <p>Prepárate para una colisión épica mientras dos gigantes de la industria de los videojuegos anuncian una colaboración inesperada. Conoce los detalles de esta emocionante asociación, las expectativas de los fans y cómo cambiará el panorama de los videojuegos.</p>
+                </div>
+            </div>
+            <!-- Noticia 3 -->
+            <div class="col-md-4">
+                <div class="noticia">
+                    <img src="img/noticia3.jpg" class="img-fluid" alt="Noticia 3">
+                    <h5 class="mt-2">Logros Épicos: Historias Destacadas de la Comunidad Gamer</h5>
+                    <p>Celebra los logros destacados de la comunidad gamer, desde hazañas épicas en juegos populares hasta increíbles creaciones de la comunidad. Descubre historias inspiradoras, momentos divertidos y logros extraordinarios que demuestran el espíritu apasionado de los jugadores.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Pie de Página -->
+<footer class="bg-white text-white py-4" id="myFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="250">
+                </a>
+            </div>
+
+            <!-- Enlaces de Navegación -->
+            <div class="col-md-6" >
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+                    <li class="list-inline-item"><a href="consolas.html">Consolas</a></li>
+                    <li class="list-inline-item"><a href="juegos.html">Juegos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center" >
+                <p style="color: #0000ff;">Desarrollado por <strong>Angie Arias Herrera</strong></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

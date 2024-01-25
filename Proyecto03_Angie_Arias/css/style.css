@@ -1,0 +1,331 @@
+body {
+    background: linear-gradient(to right, #0000ff, #e63295);
+    margin: 0; /* Asegura que no haya margen en el cuerpo */
+    padding: 0; /* Asegura que no haya relleno en el cuerpo */
+    color: aliceblue;
+}
+
+/* Estilo para las imágenes dentro de los juegos destacados */
+#juegosDestacados .card-img-top {
+    height: 500px; /* Ajusta la altura según tus preferencias */
+    object-fit: cover; /* Escala la imagen para que cubra completamente el contenedor manteniendo su relación de aspecto */
+}
+
+/* Estilo para las imágenes dentro de los juegos destacados */
+#tienda .card-img-top {
+    height: 200px; /* Ajusta la altura según tus preferencias */
+    object-fit: cover; /* Escala la imagen para que cubra completamente el contenedor manteniendo su relación de aspecto */
+}
+
+.noticia img {
+    height: 250px; 
+    width: 400px;/* Puedes ajustar la altura según tus preferencias */
+    object-fit: cover; /* Ajusta la forma en que la imagen se ajusta al contenedor */
+}
+
+.personaje img {
+    height: 600px; 
+    width: 400px;/* Puedes ajustar la altura según tus preferencias */
+    object-fit: cover; /* Ajusta la forma en que la imagen se ajusta al contenedor */
+}
+
+/* Estilos adicionales para la Barra Vertical Flotante */
+.vertical-bar {
+    padding: 20px;
+    padding-top: 0px;
+    margin-top: 205px;
+    margin-left: 5px;
+}
+
+.vertical-bar a.nav-link {
+    display: block;
+    margin-bottom: -8px; /* Espaciado entre enlaces */
+}
+
+.vertical-bar img {
+    width: 40px;
+    height: auto;
+}
+
+/* Estilos para la sección de Consolas */
+#consolas {
+    padding: 40px 0;
+}
+
+.consola {
+    margin-bottom: 40px;
+}
+
+.consola-header {
+    position: relative;
+}
+
+.consola-header img {
+    width: 100%; /* Las imágenes abarcarán el 100% del ancho */
+    height: auto;
+}
+
+.consola-header h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.consola-specs ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.consola-gallery h4 {
+    margin-top: 20px;
+}
+
+.consola-gallery img {
+    margin-bottom: 20px;
+    width: 100%; /* Las imágenes de la galería abarcarán el 100% del ancho */
+}
+
+/* Media query para tamaños de pantalla pequeños */
+@media (max-width: 767px) {
+    .consola-gallery {
+        display: none; /* Oculta las galerías en tamaños de pantalla pequeños */
+    }
+}
+
+/* Estilos para la sección de Juegos */
+#juegos {
+    padding: 40px 0;
+}
+
+.juego {
+    margin-bottom: 40px;
+}
+
+.juego-header {
+    position: relative;
+}
+
+.juego-header img {
+    width: 100%;
+    height: auto;
+}
+
+.juego-header h3 {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 24px;
+}
+
+.juego-news h4,
+.juego-characters h4 {
+    margin-top: 20px;
+}
+
+.noticia,
+.personaje {
+    margin-bottom: 20px;
+}
+
+.noticia img,
+.personaje img {
+    margin-bottom: 10px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.vertical-bar {
+    padding: 15px;
+    width: 50px;
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: right 0.3s ease;
+}
+
+.nav-link {
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    background-color: #dc37d4;
+}
+
+.vertical-bar img {
+    width: 30px;
+    height: auto;
+}
+
+/* Añadimos un padding para separar la barra del borde de la pantalla */
+.vertical-bar {
+    padding-top: 10px;
+    right: -50px; /* Inicialmente fuera de la pantalla */
+}
+
+/* Hacemos que la barra aparezca con el scroll */
+body.scrolled .vertical-bar {
+    right: 0;
+}
+
+/* Breakpoint para tamaño mediano */
+@media (min-width: 768px) {
+    /* Galería de consolas */
+    .consola-gallery img {
+        width: 100%;
+    }
+}
+
+/* Breakpoint para tamaño pequeño */
+@media (max-width: 576px) {
+    /* Ocultar galerías de consolas */
+    .consola-gallery {
+        display: none;
+    }
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+}
+
+/* Estilos para pantallas grandes */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos personalizados para el modal */
+.custom-modal {
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+}
+
+.custom-modal-content {
+    background-color: #fff; /* Fondo del contenido del modal */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.custom-modal-header {
+    background-color: #e61adf; /* Color de fondo del encabezado */
+    color: #fff; /* Color del texto del encabezado */
+}
+
+.custom-modal-title {
+    color: #fff; /* Color del título del modal */
+}
+
+.custom-modal-body {
+    color: #e61adf; /* Color del texto del cuerpo del modal */
+}
+
+.custom-modal-text {
+    font-size: 1.1rem; /* Tamaño de fuente del texto del cuerpo del modal */
+}
+
+/* Animación para el modal */
+@keyframes modalFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.custom-modal-content {
+    animation: modalFadeIn 0.3s ease-in-out; /* Animación de entrada */
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    background: linear-gradient(to right, #0000ff, #e63295); /* Fondo degradado */
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar-nav .nav-link {
+    color: aliceblue; /* Color del texto de los enlaces */
+    margin-right: 15px; /* Espaciado derecho entre los enlaces */
+}
+
+/* Estilos para el botón del menú desplegable en dispositivos móviles */
+.navbar-toggler-icon {
+    background-color: aliceblue; /* Color del ícono del botón del menú */
+}
+
+/* Estilos para el menú desplegable en dispositivos móviles */
+.navbar-toggler {
+    border-color: aliceblue; /* Color del borde del botón del menú */
+}
+
+/* Estilos para el menú desplegable en dispositivos móviles */
+.navbar-collapse {
+    background-color: #ffffff; /* Color de fondo del menú desplegable */
+    border-radius: 5px; /* Borde redondeado del menú desplegable */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra del menú desplegable */
+}
+
+/* Estilo para el hover del botón */
+.btn-hover-purple:hover {
+    color: purple;
+}
+.btn-padding {
+    margin-right: 8px; /* Puedes ajustar estos valores según tus preferencias */
+}
+
+/* Estilos para el footer */
+#myFooter {
+    background-color: white
+}
+
+#myFooter img {
+    width: 200px; /* Ajusta el tamaño del logo según tu preferencia */
+}
+
+#myFooter .list-inline-item a{
+    color: rgb(11, 22, 244); /* Cambia el color del texto de los enlaces */
+}
+
+#myFooter .list-inline-item {
+    margin: 0 10px; /* Ajusta el margen entre los elementos según tu preferencia */
+}
+
+.carousel-caption p {
+    color: white; /* Cambia el color del texto a blanco */
+}
+
+/* Agrega estilos adicionales según sea necesario */
+.personaje {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.personaje:hover {
+    transform: scale(1.05);
+}
+
+/* Agrega estilos adicionales según sea necesario */
+.noticia {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+
+.noticia:hover {
+    transform: scale(1.05);
+}

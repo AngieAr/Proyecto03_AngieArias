@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Asegúrate de tener tu archivo de estilos CSS -->
+    <title>Mundo Gamer - Juegos</title>
+</head>
+
+<body>
+
+    <header class="bg-white text-center py-3 d-flex flex-column align-items-center">
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo" width="250">
+        </a>
+        
+    </header>
+    
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to right, #0000ff, #e63295);">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav left-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: rgb(11, 22, 244);">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consolas.html" style="color: rgb(11, 22, 244);">Consolas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:rgb(11, 22, 244)">
+                            Juegos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="noticias.html">Noticias</a>
+                            <a class="dropdown-item" href="personajes.html">Personajes</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="juegos.html">Juegos</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto right-items">
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Juego..." aria-label="Search">
+                        <button class="btn btn-outline-primary btn-hover-purple btn-padding" type="submit">Buscar</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección de Juegos -->
+    <section id="juegos" class="mt-4">
+        <div class="container">
+            <h2 class="text-center">Juegos</h2>
+
+            <!-- Juego 1 -->
+            <div class="juego">
+                <div class="juego-header">
+                    <img src="img/juego.jpg" alt="Juego 1">
+                    <h3>Assassin's Creed Valhalla</h3>
+                </div>
+                <div class="juego-news">
+                    <h4>Noticias</h4>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="noticia">
+                                <img src="img/not1.jpg" alt="Noticia 1" class="img-fluid">
+                                <h5>Expansión Disponible</h5>
+                                <p>La nueva expansión de Assassin's Creed Valhalla lleva a los jugadores a
+                                    emocionantes
+                                    aventuras en tierras misteriosas.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="noticia">
+                                <img src="img/not2.jpg" alt="Noticia 2" class="img-fluid">
+                                <h5>Actualización de Gráficos</h5>
+                                <p>Se lanzó una actualización que mejora los gráficos y la experiencia visual
+                                    en todas las
+                                    plataformas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="juego-characters">
+                    <h4>Personajes</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="personaje">
+                                <img src="img/pers1.jpg" alt="Personaje 1" class="img-fluid">
+                                <h5>Eivor</h5>
+                                <p>El valiente guerrero vikingo que protagoniza Assassin's Creed Valhalla.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="personaje">
+                                <img src="img/pers2.jpg" alt="Personaje 2" class="img-fluid">
+                                <h5>Sigurd</h5>
+                                <p>El hermano de Eivor y figura clave en la historia del juego.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="personaje">
+                                <img src="img/pers3.jpg" alt="Personaje 3" class="img-fluid">
+                                <h5>Odín</h5>
+                                <p>El dios nórdico que guía y desafía a Eivor en su viaje.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- Pie de Página -->
+<footer class="bg-white text-white py-4" id="myFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="250">
+                </a>
+            </div>
+
+            <!-- Enlaces de Navegación -->
+            <div class="col-md-6" >
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+                    <li class="list-inline-item"><a href="consolas.html">Consolas</a></li>
+                    <li class="list-inline-item"><a href="juegos.html">Juegos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center" >
+                <p style="color: #0000ff;">Desarrollado por <strong>Angie Arias Herrera</strong></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

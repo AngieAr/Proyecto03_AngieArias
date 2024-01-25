@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css"> <!-- Asegúrate de tener tu archivo de estilos CSS -->
+    <title>Mundo Gamer - Consolas</title>
+</head>
+
+<body>
+
+    <header class="bg-white text-center py-3 d-flex flex-column align-items-center">
+        <!-- Logo -->
+        <a href="index.html">
+            <img src="img/logo.png" alt="Logo" width="250">
+        </a>
+        
+    </header>
+    
+    <!-- Barra de Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background: linear-gradient(to right, #0000ff, #e63295);">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav left-items">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="color: rgb(11, 22, 244);">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="consolas.html" style="color: rgb(11, 22, 244);">Consolas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:rgb(11, 22, 244)">
+                            Juegos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="noticias.html">Noticias</a>
+                            <a class="dropdown-item" href="personajes.html">Personajes</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="juegos.html">Juegos</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto right-items">
+                    <form class="d-flex ms-auto" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Juego..." aria-label="Search">
+                        <button class="btn btn-outline-primary btn-hover-purple btn-padding" type="submit">Buscar</button>
+                    </form>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Sección de Consolas -->
+    <section id="consolas" class="mt-4">
+        <div class="container">
+            <h2 class="text-center">Consolas</h2>
+            <!-- Consola 1 -->
+            <div class="consola">
+                <div class="consola-header">
+                    <img src="img/consola1.jpg" alt="Consola 1">
+                    <h3>PlayStation 5</h3>
+                </div>
+                <div class="consola-specs">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul>
+                        <li>Procesador: AMD Ryzen Zen 2 Octa-Core</li>
+                        <li>GPU: AMD RDNA 2</li>
+                        <li>RAM: 16 GB GDDR6</li>
+                        <li>Almacenamiento: 825 GB SSD</li>
+                    </ul>
+                </div>
+                <div class="consola-gallery">
+                    <h4>Galería</h4>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/ps5_img1.jpg" alt="PS5 Imagen 1" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/ps5_img2.jpg" alt="PS5 Imagen 2" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/ps5_img3.jpg" alt="PS5 Imagen 3" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/ps5_img4.jpg" alt="PS5 Imagen 4" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Consola 2 -->
+            <div class="consola">
+                <div class="consola-header">
+                    <img src="img/consola2.jpg" alt="Consola 2">
+                    <h3>Xbox Series X</h3>
+                </div>
+                <div class="consola-specs">
+                    <h4>Especificaciones Técnicas</h4>
+                    <ul>
+                        <li>Procesador: AMD Ryzen Zen 2 Octa-Core</li>
+                        <li>GPU: AMD RDNA 2</li>
+                        <li>RAM: 16 GB GDDR6</li>
+                        <li>Almacenamiento: 1 TB SSD</li>
+                    </ul>
+                </div>
+                <div class="consola-gallery">
+                    <h4>Galería</h4>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <img src="img/xbox_img1.jpg" alt="Xbox Imagen 1" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/xbox_img2.jpg" alt="Xbox Imagen 2" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/xbox_img3.jpg" alt="Xbox Imagen 3" class="img-fluid">
+                        </div>
+                        <div class="col-md-3">
+                            <img src="img/xbox_img4.jpg" alt="Xbox Imagen 4" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Pie de Página -->
+<footer class="bg-white text-white py-4" id="myFooter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Logo" width="250">
+                </a>
+            </div>
+
+            <!-- Enlaces de Navegación -->
+            <div class="col-md-6" >
+                <ul class="list-inline text-center">
+                    <li class="list-inline-item"><a href="index.html">Inicio</a></li>
+                    <li class="list-inline-item"><a href="consolas.html">Consolas</a></li>
+                    <li class="list-inline-item"><a href="juegos.html">Juegos</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 text-center" >
+                <p style="color: #0000ff;">Desarrollado por <strong>Angie Arias Herrera</strong></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
